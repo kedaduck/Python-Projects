@@ -34,7 +34,8 @@ def get_char(r,g,b,alpha = 256):
 if __name__ == '__main__':
 
     im = Image.open(IMG)
-    im = im.resize((WIDTH,HEIGHT), Image.NEAREST)
+    im = im.resize((WIDTH,HEIGHT)
+    Image.NEAREST)
 
     txt = ""
 
