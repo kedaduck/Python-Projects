@@ -44,7 +44,7 @@ for letter in iconset:
             temp.append(buildvector(Image.open("./iconset/%s/%s"%(letter, img))))
         imageset.append({letter:temp})
 
-im = Image.open("captcha.gif")
+im = Image.open("7s9t9j.gif")
 im.convert("P")
 im2 = Image.new("P", im.size, 255)
 temp = {}
