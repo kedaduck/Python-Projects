@@ -4,7 +4,7 @@ import face_recognition
 
 # 1 read picture
 obama = cv2.imread('dataset/obama2.jpg')
-img = cv2.imread('dataset/obama.jpg')
+img = cv2.imread('dataset/two_people.jpg')
 
 # 1.2  get location face
 locations = face_recognition.face_locations(img)
