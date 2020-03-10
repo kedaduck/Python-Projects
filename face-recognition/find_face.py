@@ -3,8 +3,8 @@ import face_recognition
 
 
 # 1 read picture
-obama = cv2.imread('dataset/me2.jpg')
-img = cv2.imread('dataset/me3.jpg')
+obama = cv2.imread('dataset/obama2.jpg')
+img = cv2.imread('dataset/obama.jpg')
 
 # 1.2  get location face
 locations = face_recognition.face_locations(img)
@@ -12,7 +12,7 @@ locations = face_recognition.face_locations(img)
 #
 obama_face_encoding = face_recognition.face_encodings(obama)[0]
 know_face_encoding = [obama_face_encoding]
-know_face_name = ['me']
+know_face_name = ['obama']
 
 unknow_encoding = face_recognition.face_encodings(img, locations)
 
